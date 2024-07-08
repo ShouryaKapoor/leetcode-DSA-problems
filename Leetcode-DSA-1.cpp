@@ -1,4 +1,5 @@
-258. Add Digits
+/*
+ 258. Add Digits
 Easy
 Topics
 Companies
@@ -27,8 +28,10 @@ Constraints:
  
 
 Follow up: Could you do it without any loop/recursion in O(1) runtime?
+*/
 
-Code:
+//Code:
+
 class Solution {
 public:
     int addDigits(int num) {
@@ -49,7 +52,7 @@ public:
         
     }
 };
-
+/*
 Accepted
 Runtime: 3 ms
 Case 1
@@ -61,3 +64,4 @@ Output
 2
 Expected
 2
+*/
