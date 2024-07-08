@@ -1,3 +1,4 @@
+/*
 27. Remove Element
 Easy
 Topics
@@ -49,8 +50,10 @@ Constraints:
 0 <= nums.length <= 100
 0 <= nums[i] <= 50
 0 <= val <= 100
+*/
 
-Code:
+
+//Code:
 
 class Solution {
 public:
@@ -68,7 +71,7 @@ public:
         return x;
     }
 };
-
+/*
 //basically identifiying and matching the array itmes from the given value and putting them in a separate array and also inreasing the count of the array
 
 Accepted
@@ -84,3 +87,4 @@ Output
 [2,2]
 Expected
 [2,2]
+*/
