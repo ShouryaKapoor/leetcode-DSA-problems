@@ -1,3 +1,4 @@
+/*
 35. Search Insert Position
 Easy
 Topics
@@ -28,8 +29,9 @@ Constraints:
 -104 <= nums[i] <= 104
 nums contains distinct values sorted in ascending order.
 -104 <= target <= 104
+*/
 
-Code::
+//Code::
 
 #include <vector>
 using namespace std;
@@ -45,6 +47,7 @@ public:
         return nums.size();
     }
 };
+/*
 Accepted
 Runtime: 0 ms
 Case 1
@@ -58,3 +61,4 @@ target =
 Output
 1
 Expected
+*/
