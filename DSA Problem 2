@@ -1,3 +1,4 @@
+/*
 26. Remove Duplicates from Sorted Array
 Easy
 Topics
@@ -45,9 +46,9 @@ Constraints:
 1 <= nums.length <= 3 * 104
 -100 <= nums[i] <= 100
 nums is sorted in non-decreasing order.
-
-Code:
-
+*/
+// Code:
+#include <iostream>
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -65,7 +66,7 @@ public:
 
             }
 };
-
+/*
 Accepted
 Runtime: 0 ms
 Case 1
@@ -77,3 +78,4 @@ Output
 [1,2]
 Expected
 [1,2]
+*/
